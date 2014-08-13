@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	background-color: #444;
+	color: #eee;
+	padding: 50px;
+	margin: 50px;
+	border: 4px solid #999;
+}
+h1 {
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+}
+a {
+	color: #0c9;
+	font-weight: bold;
+}
+hr {
+	border: 1px solid #999;
+	clear: both;
+}
+img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #999;
+	padding: 5px;
+}
+nav {
+	text-align: center;
+}
