@@ -1,0 +1,41 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin:	75px 50px 0px 50px;
+	border-left: 3px solid #EEE;
+	padding-left: 50px;
+}
+nav { 
+	margin-bottom: 50px;
+}
+nav > a {
+	color: #DDD;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: 300;
+}
+h1 {
+	color: #D00;
+	font-size: 50px;
+	font-weight: 300;
+
+}
+h2	{
+	color: #444;
+	font-size: 24px;
+	font-weight: 300;
+}
+h3 {
+	font-size: 30px;
+	color: #DDD;
+	font-weight: 300;
+}
+a {
+	color: #D00;
+	text-decoration: none;
+}
+h2 > a {
+	color: #444;
+	font-size: 24px;
+}
