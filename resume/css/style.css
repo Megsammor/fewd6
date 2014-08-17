@@ -1,0 +1,60 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	margin: 75px 200px 100px 0px;
+}
+h1 {
+	color: #83786f;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-left: 120px;
+	margin: 0px;
+}
+h2	{
+	color: #83786f;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-left: 120px;
+	margin: 0px;
+}
+h3	{
+	color: #83786f;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 120px;
+	margin-top: 50px;
+}
+h4	{
+	color: #83786f;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-left: 120px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+a {
+	color: #83786f;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 2px;
+}
+h4 > | {
+	color: #F00;
+}
+img {
+	float: left;
+	margin-left: 0px;
+}
+p {
+	color: #83786f;
+	font-size: 13px;
+	font-weight: 300;
+	padding-left: 120px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
