@@ -39,6 +39,9 @@ body {
 .white-bg {
 	background-color: #fff;
 }
+.hidden {
+	display: none;
+}
 
 /* Module Classes */
 
@@ -349,4 +352,39 @@ footer {
 .copyright {
 	margin-top: 15px;
 	font-size: 0.7em;
+}
+
+.lightbox-background {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 3;
+	}
+
+.lightbox {
+	z-index: 4;
+	position: fixed;
+	top: 0;
+	background-color: #000;
+	color: white;
+}	
+.lightbox-top-bar {
+	text-align: right;
+
+}
+.lightbox-bottom-bar {
+	text-align: center;
+}
+.lightbox-top-bar, .lightbox-bottom-bar {
+	font-size: 2em;
+}
+.lightbox-next, .lightbox-prev, .lightbox-exit {
+	display: inline-block;
+	padding: 8px;
+}
+
+.lightbox-image {
+	height: 400px;
 }
