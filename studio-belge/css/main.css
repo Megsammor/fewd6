@@ -5,27 +5,33 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.body {
-  margin: 0 auto;
-  width: 100%;
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Roboto Slab', serif;
 }
 .top-bar {
-	position: absolute;
+	position: relative;
 	background-color: #fff;
 	width: 100%;
 	text-align: right;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	padding-top: 60px;
 	z-index: 1;
+
 }
 .top-nav > a {
 	text-transform: none;
-	font-size: 16px;
-	color: grey;
+	font-size: 18px;
+	color: #808080;
 	text-decoration: none;
-	margin-right: 30px;
+	margin-right: 20px;
+  	font-weight: 100;
 }
-.logo{
+a:hover {
+	color: #000;
+}
+.logo {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -33,17 +39,28 @@
 .placeholder {
   height: 80px;
 }
+.social {
+	height: 30px;
+}
 .image-main {
-  display: block;
+	display: block;
 	position: relative;
 	width: 100%;
 }
+.bottom-nav {
+	height: 100px;
+	background-color: #fff;
+	border-bottom: 1px #808080;
+}
 .nav-link {
-  display: inline-block;
-	color: grey;
-	font-size: 24px;
-  font-weight: 400;
+  	display: inline-block;
+	color: #808080;
+	font-size: 18px;
+	font-weight: 100;
 	text-transform: none;
 	text-decoration: none;
-  padding: 30px 30px 30px 30px;
+  	padding: 30px 30px 30px 30px;
+}
+.to-come {
+	height: 300px;
 }
