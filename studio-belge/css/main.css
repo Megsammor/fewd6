@@ -16,9 +16,13 @@ body {
 	width: 100%;
 	text-align: right;
 	padding-bottom: 20px;
-	padding-top: 60px;
 	z-index: 1;
-
+	height: 80px;
+}
+.top-nav {
+	float: right;
+	line-height: 80px;
+	height: 80px;
 }
 .top-nav > a {
 	text-transform: none;
@@ -28,13 +32,15 @@ body {
 	margin-right: 20px;
   	font-weight: 100;
 }
+
+.top-nav a img {
+	vertical-align: middle;
+}
 a:hover {
 	color: #000;
 }
 .logo {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	float: left;
 }
 .placeholder {
   height: 80px;
